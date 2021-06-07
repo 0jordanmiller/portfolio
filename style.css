@@ -1,89 +1,94 @@
 span.dot {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 span.subtitle {
-    font-size: 0.7em;
+  font-size: 0.7em;
 }
 
 .name {
-    font-family: 'Poppins', sans-serif;
-    color: rgb(18, 18, 18);
-    font-size: 3em;
-    text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: rgb(18, 18, 18);
+  font-size: 3em;
+  text-align: center;
 }
 
 .centerpiece {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .wrapper {
-    background-color: #EAEFF2;
-    overflow: hidden;
+  background-color: #eaeff2;
+  overflow: hidden;
 }
 
 h2.title-p {
-    text-align: center;
-    font-size: 2em;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(18, 18, 18);
-    margin: 50px;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Poppins", sans-serif;
+  color: rgb(18, 18, 18);
+  margin: 50px;
 }
 
 .project-area {
-    max-width: 1473px;
-    margin: auto;
+  max-width: 1473px;
+  margin: auto;
 }
 
 .project {
-    width: 29%;
-    float: left;
-    margin: auto;
-    padding: 0 2%;
-    display: block;
+  width: 29%;
+  float: left;
+  margin: auto;
+  padding: 0 2%;
+  display: block;
 }
 
 .project img {
-    margin: auto;
-    display: block;
-    width: 96%;
+  margin: auto;
+  display: block;
+  width: 96%;
 }
 
 .buttons a {
-    padding: 10px;
-    background: grey;
-    border-radius: 10px;
-    color: #ffff;
-    font-family: 'Roboto';
-    text-decoration: none;
-    text-align: center;
-    width: 25%;
-    float: left;
-    margin: auto;
-    display: block;
+  padding: 10px;
+  background: grey;
+  border-radius: 10px;
+  color: #ffff;
+  font-family: "Roboto";
+  text-decoration: none;
+  text-align: center;
+  width: 25%;
+  float: left;
+  margin: auto;
+  display: block;
 }
 
 .buttons {
-    display: flex;
-    margin: 5px;
+  display: flex;
+  margin: 5px;
+}
+
+a.live:hover {
+  background: #60ad3d;
+}
+
+a.github:hover {
+  background: #1d1d1d;
 }
 
 p.description {
-    clear: both;
-    text-align: justify;
+  clear: both;
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
 }
 
 a.github {
-    background: #333;
-}
-
-.buttons a:hover {
-    background: grey;
+  background: #333;
 }
 
 a.live {
-    background: #6cc644;
+  background: #6cc644;
 }
