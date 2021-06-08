@@ -8,7 +8,7 @@ span.subtitle {
 
 .name {
   font-family: "Poppins", sans-serif;
-  color: rgb(18, 18, 18);
+  color: rgb(226, 226, 226);
   font-size: 3em;
   text-align: center;
 }
@@ -16,8 +16,12 @@ span.subtitle {
 .centerpiece {
   display: flex;
   height: 100vh;
+  background-image: linear-gradient(to bottom, transparent 40%, #eaeff2),
+    url(images/background.jpeg);
   align-items: center;
   justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .wrapper {
@@ -34,41 +38,40 @@ h2.title-p {
 }
 
 .project-area {
-  max-width: 1473px;
+  padding-top: 100px;
+  max-width: 60%;
   margin: auto;
 }
 
 .project {
-  width: 29%;
-  float: left;
   margin: auto;
-  padding: 0 2%;
   display: block;
+  margin-bottom: 80px;
 }
 
 .project img {
   margin: auto;
   display: block;
-  width: 96%;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .buttons a {
-  padding: 10px;
-  background: grey;
+  padding: 1rem;
+  min-width: 120px;
   border-radius: 10px;
   color: #ffff;
   font-family: "Roboto";
   text-decoration: none;
   text-align: center;
-  width: 25%;
-  float: left;
-  margin: auto;
-  display: block;
+  margin-right: 10px;
 }
 
 .buttons {
   display: flex;
-  margin: 5px;
+  margin-top: 10px;
+  justify-content: flex-start;
+  flex-direction: row;
 }
 
 a.live:hover {
@@ -81,14 +84,28 @@ a.github:hover {
 
 p.description {
   clear: both;
-  text-align: justify;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 15px auto;
+  line-height: normal;
 }
 
 a.github {
-  background: #333;
+  background: #7193a6;
 }
 
 a.live {
-  background: #6cc644;
+  background: #778770;
+}
+
+.summary {
+  max-width: 60%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.summary h3 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  line-height: normal;
+  font-weight: 400;
 }
