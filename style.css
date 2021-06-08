@@ -109,3 +109,37 @@ a.live {
   line-height: normal;
   font-weight: 400;
 }
+
+.skills h2 {
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Poppins';
+}
+
+.skills h2 {
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Poppins';
+}
+
+ul.skill-list {
+  column-count: 2;
+}
+
+.skill-list li {
+  text-align: left;
+  padding-left: 40%;
+  font-family: 'Poppins';
+  font-size: 1.0em;
+  line-height: normal;
+}
+
+
+ul.skill-list {
+  max-width: 60%;
+  margin: auto;
+}
+
+.skills {
+  margin-bottom: 50px;
+}
